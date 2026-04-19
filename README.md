@@ -128,8 +128,10 @@ Outputs:
 ## Run The App
 
 ```bash
-streamlit run app.py
+python3 -m streamlit run app.py
 ```
+
+If your shell cannot find `streamlit`, using `python3 -m streamlit` is the most reliable option.
 
 Features:
 
@@ -138,13 +140,6 @@ Features:
 - cluster filtering
 - keyword highlighting
 - summary tables for clusters, journals, authors, and work types
-
-## Suggested Talking Points For Applications
-
-- I built an end-to-end research discovery tool rather than a toy notebook.
-- I used transformer embeddings and unsupervised learning to uncover conceptual structure in a literature corpus.
-- I had to make real data-cleaning decisions about duplicates, metadata quality, and source filtering.
-- I turned the analysis into an interactive tool that supports exploratory research, not just a static figure.
 
 ## Limitations
 
