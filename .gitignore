@@ -1,0 +1,5 @@
+.DS_Store
+.numba_cache/
+.venv/
+__pycache__/
+*.pyc
